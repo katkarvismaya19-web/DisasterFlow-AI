@@ -1,0 +1,39 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Frontend dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large datasets: retain locally, do not upload to ordinary Git
+data/processed/disasterflow_flood_targets.csv
+data/processed/disasterflow_spatiotemporal_nodes.csv
+data/processed/ml_test.csv
+data/processed/ml_train.csv
+data/processed/ml_validation.csv
+data/processed/mumbai_spatiotemporal_features.csv
+data/processed/gnn/X_sequences.dat
+data/processed/predictions/stgnn_node_predictions.csv
+data/raw/weather/mumbai_historical_weather.csv

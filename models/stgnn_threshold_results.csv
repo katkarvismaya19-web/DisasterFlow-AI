@@ -1,0 +1,2 @@
+model,threshold,validation_pr_auc,validation_precision,validation_recall,validation_f1,test_precision,test_recall,test_f1,test_pr_auc,test_roc_auc
+ST-GNN,0.5646050572395325,0.0786482284930186,0.10647010647010648,0.16049382716049382,0.12801575578532745,0.0,0.0,0.0,0.02694090956764974,0.9438075013120277

@@ -1,0 +1,35 @@
+{
+  "model": "Improved ST-GNN",
+  "num_sequences": 17491,
+  "num_nodes": 140,
+  "num_features": 38,
+  "sequence_length": 24,
+  "best_epoch": 2,
+  "best_validation_pr_auc": 0.10036587266461215,
+  "decision_threshold": 0.22,
+  "threshold_selection": "maximum_validation_f1",
+  "test_default_threshold": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pr_auc": 0.01616088187307131,
+    "roc_auc": 0.9125085923074925
+  },
+  "test_optimized_threshold": {
+    "precision": 0.015584415584415584,
+    "recall": 0.008875739644970414,
+    "f1": 0.011310084825636193,
+    "pr_auc": 0.01616088187307131,
+    "roc_auc": 0.9125085923074925
+  },
+  "confusion_matrix": [
+    [
+      366865,
+      379
+    ],
+    [
+      670,
+      6
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "project": "DisasterFlow AI",
+  "model": "Spatiotemporal Graph Neural Network",
+  "temporal_encoder": "GRU",
+  "spatial_encoder": "2-layer Graph Convolution",
+  "node_attention": true,
+  "num_nodes": 140,
+  "num_features": 38,
+  "sequence_length": 24,
+  "num_sequences": 17491,
+  "hidden_size": 64,
+  "graph_hidden": 64,
+  "dropout": 0.2,
+  "batch_size": 8,
+  "epochs": 12,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "positive_class_weight": 50.0,
+  "best_threshold": 0.20000000000000004,
+  "device": "cpu"
+}

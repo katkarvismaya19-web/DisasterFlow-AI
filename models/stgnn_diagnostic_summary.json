@@ -1,0 +1,13 @@
+{
+  "full_validation_roc_auc": 0.9088254394827306,
+  "full_validation_pr_auc": 0.0786482284930186,
+  "full_test_roc_auc": 0.9438075013120277,
+  "full_test_pr_auc": 0.026940909567649735,
+  "validation_best_f1_threshold": 0.56,
+  "test_precision_at_validation_threshold": 0.0,
+  "test_recall_at_validation_threshold": 0.0,
+  "test_f1_at_validation_threshold": 0.0,
+  "validation_positive_count": 2430,
+  "test_positive_count": 676,
+  "test_predicted_positive_count": 198
+}

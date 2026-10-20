@@ -1,0 +1,21 @@
+{
+  "num_nodes":140,
+  "num_features":38,
+  "sequence_length":24,
+  "forecast_horizon":6,
+  "target":"future_flood_event_6h",
+  "num_edges":944,
+  "num_timestamps":17520,
+  "num_sequences":17491,
+  "X_shape":[
+    17491,
+    24,
+    140,
+    38
+  ],
+  "Y_shape":[
+    17491,
+    140
+  ],
+  "storage":"numpy_memmap"
+}

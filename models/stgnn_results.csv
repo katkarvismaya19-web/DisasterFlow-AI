@@ -1,0 +1,2 @@
+model,threshold,precision,recall,f1,roc_auc,pr_auc
+ST-GNN,0.5646050572395325,0.0,0.0,0.0,0.9438075013120277,0.02694090956764974

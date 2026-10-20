@@ -1,0 +1,21 @@
+{
+  "model": "CPU-Optimized GraphSAGE-GRU ST-GNN",
+  "num_nodes": 140,
+  "num_features": 38,
+  "sequence_length": 24,
+  "forecast_horizon": 6,
+  "hidden_size": 24,
+  "batch_size": 8,
+  "epochs_requested": 15,
+  "num_edges": 944,
+  "positive_weight": 300.0,
+  "training_samples_per_epoch": 8000,
+  "best_validation_pr_auc": 0.1360316573902304,
+  "full_validation_pr_auc": 0.0786482284930186,
+  "test_pr_auc": 0.02694090956764974,
+  "test_roc_auc": 0.9438075013120277,
+  "test_precision": 0.0,
+  "test_recall": 0.0,
+  "test_f1": 0.0,
+  "selected_threshold": 0.5646050572395325
+}

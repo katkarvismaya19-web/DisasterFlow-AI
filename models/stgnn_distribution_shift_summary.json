@@ -1,0 +1,13 @@
+{
+  "train_sequences": 12235,
+  "validation_sequences": 2628,
+  "test_sequences": 2628,
+  "train_positive": 1331,
+  "validation_positive": 2430,
+  "test_positive": 676,
+  "node49_train_positive": 57,
+  "node49_validation_positive": 88,
+  "node49_test_positive": 19,
+  "feature_shift_file": "C:\\Users\\Vismaya\\Downloads\\DisasterFlow-AI\\models\\stgnn_feature_distribution_shift.csv",
+  "node49_shift_file": "C:\\Users\\Vismaya\\Downloads\\DisasterFlow-AI\\models\\stgnn_node49_feature_shift.csv"
+}
